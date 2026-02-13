@@ -84,7 +84,7 @@ export function NotesLogSection() {
     <section className="mx-auto max-w-5xl px-6 py-20">
       <h2 className="section-title text-blush">Log de notitas</h2>
       <p className="section-subtitle mt-3 text-mist/90">
-        Un pequeño muro para escribir cosas tipo "hoy me has hecho feliz por..." y guardarlas para siempre.
+        Un pequeño muro para escribir cosas tipo &quot;hoy me has hecho feliz por...&quot; y guardarlas para siempre.
       </p>
 
       <div className="mt-8 grid gap-6 md:grid-cols-[1.1fr_1.2fr]">
