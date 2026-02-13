@@ -34,6 +34,15 @@ export default function HomePage() {
   };
 
   useEffect(() => {
+    if (!hydrated || !accessGranted) {
+      document.title = "Access Restricted";
+      return;
+    }
+
+    document.title = "San Valentín Interactivo 💙";
+  }, [hydrated, accessGranted]);
+
+  useEffect(() => {
     const onKeyDown = (event: KeyboardEvent) => {
       const key = event.key.toUpperCase();
       if (!/^[A-Z]$/.test(key)) {

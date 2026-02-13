@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "San Valentín Interactivo 💙",
-  description: "Regalo interactivo de San Valentín hecho con amor.",
+  title: "Access Restricted",
+  description: "Private access page.",
 };
 
 export default function RootLayout({
